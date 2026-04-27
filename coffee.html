@@ -1,0 +1,1432 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Third-page</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      .coff {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        background-color: wheat;
+      }
+
+      .coflogo1 {
+        width: 40px;
+      }
+      .cof1 {
+        display: flex;
+        align-items: center;
+        margin-top: 8%;
+      }
+      .cusinput1 {
+        width: 90%;
+        height: 35px;
+        border: none;
+        border: 1px solid rgb(162, 161, 161);
+        border-radius: 5px;
+        font-size: 18px;
+      }
+      .cusinput3 {
+        width: 90%;
+        height: 35px;
+        border: none;
+        border: 1px solid rgb(162, 161, 161);
+        border-radius: 5px;
+        font-size: 18px;
+      }
+      .cusinput1,
+      .cusinput3:focus {
+        outline: none;
+      }
+
+      .orderbutton {
+        width: 90%;
+        align-items: center;
+        font-size: 20px;
+        height: 35px;
+        font-weight: 600;
+        border-radius: 5px;
+        border: none;
+        background-color: rgb(56, 2, 2);
+        color: white;
+      }
+      .order-page2 {
+        margin-top: 30px;
+        margin-left: 8%;
+      }
+      .detailstag {
+        color: rgb(109, 109, 109);
+        margin-top: 1%;
+      }
+      .inputtag1,
+      .inputtag3 {
+        font-weight: 600;
+        margin-top: 5%;
+      }
+      .lockbtn {
+        width: 20px;
+      }
+      .locktag {
+        display: flex;
+        align-items: center;
+        margin-top: 20px;
+        color: rgb(103, 102, 102);
+        fill: rgba(103, 102, 102);
+        font-weight: 450;
+      }
+      .your0order {
+        margin-top: 5%;
+      }
+      #coffeeeetag {
+        margin-top: 60px;
+      }
+
+      .coff {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        background-color: wheat;
+      }
+      .order-page {
+        width: 35%;
+        height: 63%;
+        background-color: white;
+        border-radius: 10px;
+        position: fixed;
+        top: 12%;
+        left: 32%;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        display: none;
+      }
+
+      .coflogo1 {
+        width: 40px;
+      }
+      .cof1 {
+        display: flex;
+        align-items: center;
+        margin-top: 8%;
+        font-size: 20px;
+      }
+      .cusinput1 {
+        width: 90%;
+        height: 35px;
+        border: none;
+        border: 1px solid rgb(162, 161, 161);
+        border-radius: 5px;
+        font-size: 18px;
+      }
+      .cusinput3 {
+        width: 90%;
+        height: 35px;
+        border: none;
+        border: 1px solid rgb(162, 161, 161);
+        border-radius: 5px;
+        font-size: 18px;
+      }
+      .cusinput1,
+      .cusinput3:focus {
+        outline: none;
+      }
+
+      .orderbutton {
+        width: 90%;
+        align-items: center;
+        font-size: 20px;
+        height: 35px;
+        font-weight: 600;
+        border-radius: 5px;
+        border: none;
+        background-color: rgb(56, 2, 2);
+        color: white;
+      }
+      .order-page2 {
+        margin-top: 30px;
+        margin-left: 8%;
+      }
+      .detailstag {
+        color: rgb(109, 109, 109);
+        margin-top: 1%;
+        font-size: 18px;
+      }
+      .inputtag1,
+      .inputtag3 {
+        font-weight: 600;
+        margin-top: 5%;
+        font-size: 20px;
+      }
+      .lockbtn {
+        width: 20px;
+      }
+      .locktag {
+        display: flex;
+        align-items: center;
+        margin-top: 20px;
+        color: rgb(103, 102, 102);
+        fill: rgba(103, 102, 102);
+        font-weight: 450;
+        font-size: 16px;
+      }
+      .your0order {
+        margin-top: 5%;
+      }
+      .orderscart {
+        width: 28px;
+        fill: black;
+        position: absolute;
+        margin-top: 14px;
+        margin-left: -7px;
+      }
+      .h4values {
+        position: absolute;
+        top: 22px;
+        margin-left: 280px;
+        color: white;
+      }
+      #ordercontainer {
+        width: 300px;
+        height: 300px;
+      }
+      .bbbb {
+        color: brown;
+        margin-top: 10px;
+        padding-bottom: 10px;
+      }
+      /*-----------------------------*/
+      .order-page222 {
+        width: 35%;
+        height: 63%;
+        background-color: white;
+        border-radius: 10px;
+        position: fixed;
+        top: 20%;
+        left: 32%;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        display: none;
+      }
+      .order-page22 {
+        margin-top: 30px;
+        margin-left: 8%;
+      }
+      .cof2 {
+        display: flex;
+        align-items: center;
+        margin-top: 8%;
+        font-size: 20px;
+      }
+      .coflogo2 {
+        width: 40px;
+      }
+      .detailstag1 {
+        color: rgb(109, 109, 109);
+        margin-top: 1%;
+        font-size: 18px;
+      }
+      .inputtag12 {
+        font-weight: 600;
+        margin-top: 5%;
+        font-size: 20px;
+      }
+      .inputtag32 {
+        font-weight: 600;
+        margin-top: 5%;
+        font-size: 20px;
+      }
+      .cusinput12 {
+        width: 90%;
+        height: 35px;
+        border: none;
+        border: 1px solid rgb(162, 161, 161);
+        border-radius: 5px;
+        font-size: 18px;
+      }
+      .cusinput12,
+      .cusinput31:focus {
+        outline: none;
+      }
+      .cusinput31 {
+        width: 90%;
+        height: 35px;
+        border: none;
+        border: 1px solid rgb(162, 161, 161);
+        border-radius: 5px;
+        font-size: 18px;
+      }
+      .your0order2 {
+        margin-top: 5%;
+      }
+      .bbbb2 {
+        color: brown;
+        margin-top: 10px;
+        padding-bottom: 10px;
+      }
+      .orderbutton2 {
+        width: 90%;
+        align-items: center;
+        font-size: 20px;
+        height: 35px;
+        font-weight: 600;
+        border-radius: 5px;
+        border: none;
+        background-color: rgb(56, 2, 2);
+        color: white;
+      }
+      .locktag2 {
+        display: flex;
+        align-items: center;
+        margin-top: 20px;
+        color: rgb(103, 102, 102);
+        fill: rgba(103, 102, 102);
+        font-weight: 450;
+        font-size: 16px;
+      }
+      .lockbtn2 {
+        width: 20px;
+      }
+      /*-----------------------------*/
+      .order-page333 {
+        width: 35%;
+        height: 63%;
+        background-color: white;
+        border-radius: 10px;
+        position: fixed;
+        top: 20%;
+        left: 32%;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        display: none;
+      }
+      .order-page33 {
+        margin-top: 30px;
+        margin-left: 8%;
+      }
+      .cof3 {
+        display: flex;
+        align-items: center;
+        margin-top: 8%;
+        font-size: 20px;
+      }
+      .coflogo3 {
+        width: 40px;
+      }
+      .detailstag3 {
+        color: rgb(109, 109, 109);
+        margin-top: 1%;
+        font-size: 18px;
+      }
+      .inputtag333 {
+        font-weight: 600;
+        margin-top: 5%;
+        font-size: 20px;
+      }
+      .inputtag3333 {
+        font-weight: 600;
+        margin-top: 5%;
+        font-size: 20px;
+      }
+      .cusinput333 {
+        width: 90%;
+        height: 35px;
+        border: none;
+        border: 1px solid rgb(162, 161, 161);
+        border-radius: 5px;
+        font-size: 18px;
+      }
+      .cusinput333,
+      .cusinput3333:focus {
+        outline: none;
+      }
+      .cusinput3333 {
+        width: 90%;
+        height: 35px;
+        border: none;
+        border: 1px solid rgb(162, 161, 161);
+        border-radius: 5px;
+        font-size: 18px;
+      }
+      .your0order3 {
+        margin-top: 5%;
+      }
+      .bbbb3 {
+        color: brown;
+        margin-top: 10px;
+        padding-bottom: 10px;
+      }
+      .orderbutton3 {
+        width: 90%;
+        align-items: center;
+        font-size: 20px;
+        height: 35px;
+        font-weight: 600;
+        border-radius: 5px;
+        border: none;
+        background-color: rgb(56, 2, 2);
+        color: white;
+      }
+      .locktag3 {
+        display: flex;
+        align-items: center;
+        margin-top: 20px;
+        color: rgb(103, 102, 102);
+        fill: rgba(103, 102, 102);
+        font-weight: 450;
+        font-size: 16px;
+      }
+      .lockbtn3 {
+        width: 20px;
+      }
+      /*------------------------------------------*/
+      .order-page444 {
+        width: 35%;
+        height: 63%;
+        background-color: white;
+        border-radius: 10px;
+        position: fixed;
+        top: 20%;
+        left: 32%;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        display: none;
+      }
+      .order-page44 {
+        margin-top: 30px;
+        margin-left: 8%;
+      }
+      .cof4 {
+        display: flex;
+        align-items: center;
+        margin-top: 8%;
+        font-size: 20px;
+      }
+      .coflogo4 {
+        width: 40px;
+      }
+      .detailstag4 {
+        color: rgb(109, 109, 109);
+        margin-top: 1%;
+        font-size: 18px;
+      }
+      .inputtag444 {
+        font-weight: 600;
+        margin-top: 5%;
+        font-size: 20px;
+      }
+      .inputtag4444 {
+        font-weight: 600;
+        margin-top: 5%;
+        font-size: 20px;
+      }
+      .cusinput444 {
+        width: 90%;
+        height: 35px;
+        border: none;
+        border: 1px solid rgb(162, 161, 161);
+        border-radius: 5px;
+        font-size: 18px;
+      }
+      .cusinput444,
+      .cusinput4444:focus {
+        outline: none;
+      }
+      .cusinput4444 {
+        width: 90%;
+        height: 35px;
+        border: none;
+        border: 1px solid rgb(162, 161, 161);
+        border-radius: 5px;
+        font-size: 18px;
+      }
+      .your0order4 {
+        margin-top: 5%;
+      }
+      .bbbb4 {
+        color: brown;
+        margin-top: 10px;
+        padding-bottom: 10px;
+      }
+      .orderbutton4 {
+        width: 90%;
+        align-items: center;
+        font-size: 20px;
+        height: 35px;
+        font-weight: 600;
+        border-radius: 5px;
+        border: none;
+        background-color: rgb(56, 2, 2);
+        color: white;
+      }
+      .locktag4 {
+        display: flex;
+        align-items: center;
+        margin-top: 20px;
+        color: rgb(103, 102, 102);
+        fill: rgba(103, 102, 102);
+        font-weight: 450;
+        font-size: 16px;
+      }
+      .lockbtn4 {
+        width: 20px;
+      }
+      /*----------------------------------*/
+      .order-page555 {
+        width: 35%;
+        height: 63%;
+        background-color: white;
+        border-radius: 10px;
+        position: fixed;
+        top: 20%;
+        left: 32%;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        display: none;
+      }
+      .order-page55 {
+        margin-top: 30px;
+        margin-left: 8%;
+      }
+      .cof5 {
+        display: flex;
+        align-items: center;
+        margin-top: 8%;
+        font-size: 20px;
+      }
+      .coflogo5 {
+        width: 40px;
+      }
+      .detailstag5 {
+        color: rgb(109, 109, 109);
+        margin-top: 1%;
+        font-size: 18px;
+      }
+      .inputtag555 {
+        font-weight: 600;
+        margin-top: 5%;
+        font-size: 20px;
+      }
+      .inputtag5555 {
+        font-weight: 600;
+        margin-top: 5%;
+        font-size: 20px;
+      }
+      .cusinput555 {
+        width: 90%;
+        height: 35px;
+        border: none;
+        border: 1px solid rgb(162, 161, 161);
+        border-radius: 5px;
+        font-size: 18px;
+      }
+      .cusinput555,
+      .cusinput5555:focus {
+        outline: none;
+      }
+      .cusinput5555 {
+        width: 90%;
+        height: 35px;
+        border: none;
+        border: 1px solid rgb(162, 161, 161);
+        border-radius: 5px;
+        font-size: 18px;
+      }
+      .your0order5 {
+        margin-top: 5%;
+      }
+      .bbbb5 {
+        color: brown;
+        margin-top: 10px;
+        padding-bottom: 10px;
+      }
+      .orderbutton5 {
+        width: 90%;
+        align-items: center;
+        font-size: 20px;
+        height: 35px;
+        font-weight: 600;
+        border-radius: 5px;
+        border: none;
+        background-color: rgb(56, 2, 2);
+        color: white;
+      }
+      .locktag5 {
+        display: flex;
+        align-items: center;
+        margin-top: 20px;
+        color: rgb(103, 102, 102);
+        fill: rgba(103, 102, 102);
+        font-weight: 450;
+        font-size: 16px;
+      }
+      .lockbtn5 {
+        width: 20px;
+      }
+      /*-----------------------*/
+      .order-page666 {
+        width: 35%;
+        height: 63%;
+        background-color: white;
+        border-radius: 10px;
+        position: fixed;
+        top: 20%;
+        left: 32%;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        display: none;
+      }
+      .order-page66 {
+        margin-top: 30px;
+        margin-left: 8%;
+      }
+      .cof6 {
+        display: flex;
+        align-items: center;
+        margin-top: 8%;
+        font-size: 20px;
+      }
+      .coflogo6 {
+        width: 40px;
+      }
+      .detailstag6 {
+        color: rgb(109, 109, 109);
+        margin-top: 1%;
+        font-size: 18px;
+      }
+      .inputtag666 {
+        font-weight: 600;
+        margin-top: 5%;
+        font-size: 20px;
+      }
+      .inputtag6666 {
+        font-weight: 600;
+        margin-top: 5%;
+        font-size: 20px;
+      }
+      .cusinput666 {
+        width: 90%;
+        height: 35px;
+        border: none;
+        border: 1px solid rgb(162, 161, 161);
+        border-radius: 5px;
+        font-size: 18px;
+      }
+      .cusinput666,
+      .cusinput6666:focus {
+        outline: none;
+      }
+      .cusinput6666 {
+        width: 90%;
+        height: 35px;
+        border: none;
+        border: 1px solid rgb(162, 161, 161);
+        border-radius: 5px;
+        font-size: 18px;
+      }
+      .your0order6 {
+        margin-top: 5%;
+      }
+      .bbbb6 {
+        color: brown;
+        margin-top: 10px;
+        padding-bottom: 10px;
+      }
+      .orderbutton6 {
+        width: 90%;
+        align-items: center;
+        font-size: 20px;
+        height: 35px;
+        font-weight: 600;
+        border-radius: 5px;
+        border: none;
+        background-color: rgb(56, 2, 2);
+        color: white;
+      }
+      .locktag6 {
+        display: flex;
+        align-items: center;
+        margin-top: 20px;
+        color: rgb(103, 102, 102);
+        fill: rgba(103, 102, 102);
+        font-weight: 450;
+        font-size: 16px;
+      }
+      .lockbtn6 {
+        width: 20px;
+      }
+      /*------------------------*/
+      .order-page777 {
+        width: 35%;
+        height: 63%;
+        background-color: white;
+        border-radius: 10px;
+        position: fixed;
+        top: 20%;
+        left: 32%;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        display: none;
+      }
+      .order-page77 {
+        margin-top: 30px;
+        margin-left: 8%;
+      }
+      .cof7 {
+        display: flex;
+        align-items: center;
+        margin-top: 8%;
+        font-size: 20px;
+      }
+      .coflogo7 {
+        width: 40px;
+      }
+      .detailstag7 {
+        color: rgb(109, 109, 109);
+        margin-top: 1%;
+        font-size: 18px;
+      }
+      .inputtag777 {
+        font-weight: 600;
+        margin-top: 5%;
+        font-size: 20px;
+      }
+      .inputtag7777 {
+        font-weight: 600;
+        margin-top: 5%;
+        font-size: 20px;
+      }
+      .cusinput777 {
+        width: 90%;
+        height: 35px;
+        border: none;
+        border: 1px solid rgb(162, 161, 161);
+        border-radius: 5px;
+        font-size: 18px;
+      }
+      .cusinput777,
+      .cusinput7777:focus {
+        outline: none;
+      }
+      .cusinput7777 {
+        width: 90%;
+        height: 35px;
+        border: none;
+        border: 1px solid rgb(162, 161, 161);
+        border-radius: 5px;
+        font-size: 18px;
+      }
+      .your0order7 {
+        margin-top: 5%;
+      }
+      .bbbb7 {
+        color: brown;
+        margin-top: 10px;
+        padding-bottom: 10px;
+      }
+      .orderbutton7 {
+        width: 90%;
+        align-items: center;
+        font-size: 20px;
+        height: 35px;
+        font-weight: 600;
+        border-radius: 5px;
+        border: none;
+        background-color: rgb(56, 2, 2);
+        color: white;
+      }
+      .locktag7 {
+        display: flex;
+        align-items: center;
+        margin-top: 20px;
+        color: rgb(103, 102, 102);
+        fill: rgba(103, 102, 102);
+        font-weight: 450;
+        font-size: 16px;
+      }
+      .lockbtn7 {
+        width: 20px;
+      }
+      /*------------------------*/
+      .order-page888 {
+        width: 35%;
+        height: 63%;
+        background-color: white;
+        border-radius: 10px;
+        position: fixed;
+        top: 20%;
+        left: 32%;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        display: none;
+      }
+      .order-page88 {
+        margin-top: 30px;
+        margin-left: 8%;
+      }
+      .cof8 {
+        display: flex;
+        align-items: center;
+        margin-top: 8%;
+        font-size: 20px;
+      }
+      .coflogo8 {
+        width: 40px;
+      }
+      .detailstag8 {
+        color: rgb(109, 109, 109);
+        margin-top: 1%;
+        font-size: 18px;
+      }
+      .inputtag888 {
+        font-weight: 600;
+        margin-top: 5%;
+        font-size: 20px;
+      }
+      .inputtag8888 {
+        font-weight: 600;
+        margin-top: 5%;
+        font-size: 20px;
+      }
+      .cusinput888 {
+        width: 90%;
+        height: 35px;
+        border: none;
+        border: 1px solid rgb(162, 161, 161);
+        border-radius: 5px;
+        font-size: 18px;
+      }
+      .cusinput888,
+      .cusinput8888:focus {
+        outline: none;
+      }
+      .cusinput8888 {
+        width: 90%;
+        height: 35px;
+        border: none;
+        border: 1px solid rgb(162, 161, 161);
+        border-radius: 5px;
+        font-size: 18px;
+      }
+      .your0order8 {
+        margin-top: 5%;
+      }
+      .bbbb8 {
+        color: brown;
+        margin-top: 10px;
+        padding-bottom: 10px;
+      }
+      .orderbutton8 {
+        width: 90%;
+        align-items: center;
+        font-size: 20px;
+        height: 35px;
+        font-weight: 600;
+        border-radius: 5px;
+        border: none;
+        background-color: rgb(56, 2, 2);
+        color: white;
+      }
+      .locktag8 {
+        display: flex;
+        align-items: center;
+        margin-top: 20px;
+        color: rgb(103, 102, 102);
+        fill: rgba(103, 102, 102);
+        font-weight: 450;
+        font-size: 16px;
+      }
+      .lockbtn8 {
+        width: 20px;
+      }
+      @media (max-width: 600px) {
+        .order-page,
+        .order-page222,
+        .order-page333,
+        .order-page444,
+        .order-page555,
+        .order-page666,
+        .order-page777,
+        .order-page888 {
+          width: 80%;
+          margin-left: -100px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="navbar-div">
+      <div class="shop-name">
+        <h1 class="ppaname">
+          <img class="ppa-img" src="logo2.png" alt="" />
+          Weekend Coffee Shop
+        </h1>
+      </div>
+      <div class="links-div">
+        <a href="index.html"> Home </a>
+
+        <a href="index.html#coffeeteajuice">Menu </a>
+
+        <a href="index.html#footerpage">Contact</a>
+      </div>
+    </div>
+    <div id="coffeeeetag" class="coff">
+      <div id="classphoto" class="firstimg">
+        <img class="coffeeimages" src="blackcoffee.avif" alt="" />
+        <div class="img-cont">
+          <h3>Black Coffee 150</h3>
+          <button
+            id="order1"
+            class="ordershow-button"
+            data-img="blackcoffee.avif"
+          >
+            Order now
+          </button>
+        </div>
+      </div>
+      <div id="classphoto" class="firstimg">
+        <img class="coffeeimages" src="bulletproofcoffee.webp" alt="" />
+        <div class="img-cont">
+          <h3>Bulletproof Coffee 160</h3>
+          <button
+            id="order2"
+            class="ordershow-button"
+            data-img="bulletproofcoffee.webp"
+          >
+            Order now
+          </button>
+        </div>
+      </div>
+      <div id="classphoto" class="firstimg">
+        <img class="coffeeimages" src="chicorycoffee.jpg" alt="" />
+        <div class="img-cont">
+          <h3>Chicory Coffee 200</h3>
+          <button
+            id="order3"
+            class="ordershow-button"
+            data-img="chicorycoffee.jpg"
+          >
+            Order now
+          </button>
+        </div>
+      </div>
+      <div id="classphoto" class="firstimg">
+        <img class="coffeeimages" src="ColdCoffee.jpg" alt="" />
+        <div class="img-cont">
+          <h3>Cold Coffee 130</h3>
+          <button
+            id="order4"
+            class="ordershow-button"
+            data-img="ColdCoffee.jpg"
+          >
+            Order now
+          </button>
+        </div>
+      </div>
+      <div id="classphoto" class="firstimg">
+        <img class="coffeeimages" src="DecafCoffee.jpg" alt="" />
+        <div class="img-cont">
+          <h3>Decaf Coffee 120</h3>
+          <button
+            id="order5"
+            class="ordershow-button"
+            data-img="DecafCoffee.jpg"
+          >
+            Order now
+          </button>
+        </div>
+      </div>
+      <div id="classphoto" class="firstimg">
+        <img class="coffeeimages" src="instantcoffee.jpg" alt="" />
+        <div class="img-cont">
+          <h3>Instant Coffee 140</h3>
+          <button
+            id="order6"
+            class="ordershow-button"
+            data-img="instantcoffee.jpg"
+          >
+            Order now
+          </button>
+        </div>
+      </div>
+      <div id="classphoto" class="firstimg">
+        <img class="coffeeimages" src="milkcoffee.avif" alt="" />
+        <div class="img-cont">
+          <h3>Milk Coffee 150</h3>
+          <button
+            id="order7"
+            class="ordershow-button"
+            data-img="milkcoffee.avif"
+          >
+            Order now
+          </button>
+        </div>
+      </div>
+      <div id="classphoto" class="firstimg">
+        <img class="coffeeimages" src="traditionalcoffee.jpg" alt="" />
+        <div class="img-cont">
+          <h3>Traditional Coffee 250</h3>
+          <button
+            id="order8"
+            class="ordershow-button"
+            data-img="traditionalcoffee.jpg"
+          >
+            Order now
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div id="orderpagesss" class="ordeerpages">
+      <div class="order-page">
+        <div class="order-page2">
+          <div class="cof1">
+            <img class="coflogo1" src="logo2.png" alt="" />
+            <h2>Order Coffee</h2>
+          </div>
+          <h4 class="detailstag">Fill in your details and place your order</h4>
+          <div class="inputtag1">
+            Customer Name
+            <input class="cusinput1" type="text" />
+          </div>
+
+          <div class="inputtag3">
+            Customer Number
+            <input class="cusinput3" type="number" />
+          </div>
+          <h3 class="your0order">Your Order</h3>
+          <h2 class="bbbb">Black Coffee : 150 rupess</h2>
+          <button id="placeorder1" class="orderbutton">Place Order</button>
+          <div class="locktag">
+            <div class="locktag1">
+              <svg
+                class="lockbtn"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 640 640"
+              >
+                <path
+                  d="M256 160L256 224L384 224L384 160C384 124.7 355.3 96 320 96C284.7 96 256 124.7 256 160zM192 224L192 160C192 89.3 249.3 32 320 32C390.7 32 448 89.3 448 160L448 224C483.3 224 512 252.7 512 288L512 512C512 547.3 483.3 576 448 576L192 576C156.7 576 128 547.3 128 512L128 288C128 252.7 156.7 224 192 224z"
+                />
+              </svg>
+            </div>
+            <h4>Your information is secure and safe with us.</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="orderpagesss2" class="ordeerpages2">
+      <div class="order-page222">
+        <div class="order-page22">
+          <div class="cof2">
+            <img class="coflogo2" src="logo2.png" alt="" />
+            <h2>Order Coffee</h2>
+          </div>
+          <h4 class="detailstag1">Fill in your details and place your order</h4>
+          <div class="inputtag12">
+            Customer Name
+            <input class="cusinput12" type="text" />
+          </div>
+
+          <div class="inputtag32">
+            Customer Number
+            <input class="cusinput31" type="number" />
+          </div>
+          <h3 class="your0order2">Your Order</h3>
+          <h2 class="bbbb2">Bulletproof Coffee : 160 rupess</h2>
+          <button id="placeorder2" class="orderbutton2">Place Order</button>
+          <div class="locktag2">
+            <div class="locktag12">
+              <svg
+                class="lockbtn2"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 640 640"
+              >
+                <path
+                  d="M256 160L256 224L384 224L384 160C384 124.7 355.3 96 320 96C284.7 96 256 124.7 256 160zM192 224L192 160C192 89.3 249.3 32 320 32C390.7 32 448 89.3 448 160L448 224C483.3 224 512 252.7 512 288L512 512C512 547.3 483.3 576 448 576L192 576C156.7 576 128 547.3 128 512L128 288C128 252.7 156.7 224 192 224z"
+                />
+              </svg>
+            </div>
+            <h4>Your information is secure and safe with us.</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="orderpagesss3" class="ordeerpages2">
+      <div class="order-page333">
+        <div class="order-page33">
+          <div class="cof3">
+            <img class="coflogo3" src="logo2.png" alt="" />
+            <h2>Order Coffee</h2>
+          </div>
+          <h4 class="detailstag3">Fill in your details and place your order</h4>
+          <div class="inputtag333">
+            Customer Name
+            <input class="cusinput333" type="text" />
+          </div>
+
+          <div class="inputtag3333">
+            Customer Number
+            <input class="cusinput3333" type="number" />
+          </div>
+          <h3 class="your0order3">Your Order</h3>
+          <h2 class="bbbb3">Chicory Coffee : 200 rupess</h2>
+          <button id="placeorder3" class="orderbutton3">Place Order</button>
+          <div class="locktag3">
+            <div class="locktag12">
+              <svg
+                class="lockbtn3"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 640 640"
+              >
+                <path
+                  d="M256 160L256 224L384 224L384 160C384 124.7 355.3 96 320 96C284.7 96 256 124.7 256 160zM192 224L192 160C192 89.3 249.3 32 320 32C390.7 32 448 89.3 448 160L448 224C483.3 224 512 252.7 512 288L512 512C512 547.3 483.3 576 448 576L192 576C156.7 576 128 547.3 128 512L128 288C128 252.7 156.7 224 192 224z"
+                />
+              </svg>
+            </div>
+            <h4>Your information is secure and safe with us.</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="orderpagesss4" class="ordeerpages2">
+      <div class="order-page444">
+        <div class="order-page44">
+          <div class="cof4">
+            <img class="coflogo4" src="logo2.png" alt="" />
+            <h2>Order Coffee</h2>
+          </div>
+          <h4 class="detailstag4">Fill in your details and place your order</h4>
+          <div class="inputtag444">
+            Customer Name
+            <input class="cusinput444" type="text" />
+          </div>
+
+          <div class="inputtag4444">
+            Customer Number
+            <input class="cusinput4444" type="number" />
+          </div>
+          <h3 class="your0order4">Your Order</h3>
+          <h2 class="bbbb4">Cold Coffee : 130 rupees</h2>
+          <button id="placeorder4" class="orderbutton4">Place Order</button>
+          <div class="locktag4">
+            <div class="locktag12">
+              <svg
+                class="lockbtn4"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 640 640"
+              >
+                <path
+                  d="M256 160L256 224L384 224L384 160C384 124.7 355.3 96 320 96C284.7 96 256 124.7 256 160zM192 224L192 160C192 89.3 249.3 32 320 32C390.7 32 448 89.3 448 160L448 224C483.3 224 512 252.7 512 288L512 512C512 547.3 483.3 576 448 576L192 576C156.7 576 128 547.3 128 512L128 288C128 252.7 156.7 224 192 224z"
+                />
+              </svg>
+            </div>
+            <h4>Your information is secure and safe with us.</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="orderpagesss5" class="ordeerpages2">
+      <div class="order-page555">
+        <div class="order-page55">
+          <div class="cof5">
+            <img class="coflogo5" src="logo2.png" alt="" />
+            <h2>Order Coffee</h2>
+          </div>
+          <h4 class="detailstag5">Fill in your details and place your order</h4>
+          <div class="inputtag555">
+            Customer Name
+            <input class="cusinput555" type="text" />
+          </div>
+
+          <div class="inputtag5555">
+            Customer Number
+            <input class="cusinput5555" type="number" />
+          </div>
+          <h3 class="your0order5">Your Order</h3>
+          <h2 class="bbbb5">Decaf Coffee : 120 rupess</h2>
+          <button id="placeorder5" class="orderbutton5">Place Order</button>
+          <div class="locktag5">
+            <div class="locktag12">
+              <svg
+                class="lockbtn5"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 640 640"
+              >
+                <path
+                  d="M256 160L256 224L384 224L384 160C384 124.7 355.3 96 320 96C284.7 96 256 124.7 256 160zM192 224L192 160C192 89.3 249.3 32 320 32C390.7 32 448 89.3 448 160L448 224C483.3 224 512 252.7 512 288L512 512C512 547.3 483.3 576 448 576L192 576C156.7 576 128 547.3 128 512L128 288C128 252.7 156.7 224 192 224z"
+                />
+              </svg>
+            </div>
+            <h4>Your information is secure and safe with us.</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="orderpagesss6" class="ordeerpages2">
+      <div class="order-page666">
+        <div class="order-page66">
+          <div class="cof6">
+            <img class="coflogo6" src="logo2.png" alt="" />
+            <h2>Order Coffee</h2>
+          </div>
+          <h4 class="detailstag6">Fill in your details and place your order</h4>
+          <div class="inputtag666">
+            Customer Name
+            <input class="cusinput666" type="text" />
+          </div>
+
+          <div class="inputtag6666">
+            Customer Number
+            <input class="cusinput6666" type="number" />
+          </div>
+          <h3 class="your0order6">Your Order</h3>
+          <h2 class="bbbb6">Instant Coffee : 140 rupees</h2>
+          <button id="placeorder6" class="orderbutton6">Place Order</button>
+          <div class="locktag6">
+            <div class="locktag12">
+              <svg
+                class="lockbtn6"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 640 640"
+              >
+                <path
+                  d="M256 160L256 224L384 224L384 160C384 124.7 355.3 96 320 96C284.7 96 256 124.7 256 160zM192 224L192 160C192 89.3 249.3 32 320 32C390.7 32 448 89.3 448 160L448 224C483.3 224 512 252.7 512 288L512 512C512 547.3 483.3 576 448 576L192 576C156.7 576 128 547.3 128 512L128 288C128 252.7 156.7 224 192 224z"
+                />
+              </svg>
+            </div>
+            <h4>Your information is secure and safe with us.</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="orderpagesss7" class="ordeerpages2">
+      <div class="order-page777">
+        <div class="order-page77">
+          <div class="cof7">
+            <img class="coflogo7" src="logo2.png" alt="" />
+            <h2>Order Coffee</h2>
+          </div>
+          <h4 class="detailstag7">Fill in your details and place your order</h4>
+          <div class="inputtag777">
+            Customer Name
+            <input class="cusinput777" type="text" />
+          </div>
+
+          <div class="inputtag7777">
+            Customer Number
+            <input class="cusinput7777" type="number" />
+          </div>
+          <h3 class="your0order7">Your Order</h3>
+          <h2 class="bbbb7">Milk Coffee : 150 rupees</h2>
+          <button id="placeorder7" class="orderbutton7">Place Order</button>
+          <div class="locktag7">
+            <div class="locktag12">
+              <svg
+                class="lockbtn7"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 640 640"
+              >
+                <path
+                  d="M256 160L256 224L384 224L384 160C384 124.7 355.3 96 320 96C284.7 96 256 124.7 256 160zM192 224L192 160C192 89.3 249.3 32 320 32C390.7 32 448 89.3 448 160L448 224C483.3 224 512 252.7 512 288L512 512C512 547.3 483.3 576 448 576L192 576C156.7 576 128 547.3 128 512L128 288C128 252.7 156.7 224 192 224z"
+                />
+              </svg>
+            </div>
+            <h4>Your information is secure and safe with us.</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="orderpagesss8" class="ordeerpages2">
+      <div class="order-page888">
+        <div class="order-page88">
+          <div class="cof8">
+            <img class="coflogo8" src="logo2.png" alt="" />
+            <h2>Order Coffee</h2>
+          </div>
+          <h4 class="detailstag8">Fill in your details and place your order</h4>
+          <div class="inputtag888">
+            Customer Name
+            <input class="cusinput888" type="text" />
+          </div>
+
+          <div class="inputtag8888">
+            Customer Number
+            <input class="cusinput8888" type="number" />
+          </div>
+          <h3 class="your0order8">Your Order</h3>
+          <h2 class="bbbb8">Traditional Coffee : 250 rupees</h2>
+          <button id="placeorder8" class="orderbutton8">Place Order</button>
+          <div class="locktag8">
+            <div class="locktag12">
+              <svg
+                class="lockbtn8"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 640 640"
+              >
+                <path
+                  d="M256 160L256 224L384 224L384 160C384 124.7 355.3 96 320 96C284.7 96 256 124.7 256 160zM192 224L192 160C192 89.3 249.3 32 320 32C390.7 32 448 89.3 448 160L448 224C483.3 224 512 252.7 512 288L512 512C512 547.3 483.3 576 448 576L192 576C156.7 576 128 547.3 128 512L128 288C128 252.7 156.7 224 192 224z"
+                />
+              </svg>
+            </div>
+            <h4>Your information is secure and safe with us.</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!------ .order-page333 { width: 550px; height: 63%;
+    background-color: white; border-radius: 10px; position: absolute; top: 22%;
+    left: 32%; box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; } .order-page33 {
+    margin-top: 30px; margin-left: 8%; } .cof3 { display: flex; align-items:
+    center; margin-top: 8%; font-size: 20px; } .coflogo3 { width: 40px; }
+    .detailstag3 { color: rgb(109, 109, 109); margin-top: 1%; font-size: 18px; }
+    .inputtag333 { font-weight: 600; margin-top: 5%; font-size: 20px; }
+    .inputtag3333 { font-weight: 600; margin-top: 5%; font-size: 20px; }
+    .cusinput333 { width: 90%; height: 35px; border: none; border: 1px solid
+    rgb(162, 161, 161); border-radius: 5px; font-size: 18px; } .cusinput333,
+    .cusinput3333:focus { outline: none; } .cusinput3333 { width: 90%; height:
+    35px; border: none; border: 1px solid rgb(162, 161, 161); border-radius:
+    5px; font-size: 18px; } .your0order3 { margin-top: 5%; } .bbbb3 { color:
+    brown; margin-top: 10px; padding-bottom: 10px; } .orderbutton3 { width: 90%;
+    align-items: center; font-size: 20px; height: 35px; font-weight: 600;
+    border-radius: 5px; border: none; background-color: rgb(56, 2, 2); color:
+    white; } .locktag3 { display: flex; align-items: center; margin-top: 20px;
+    color: rgb(103, 102, 102); fill: rgba(103, 102, 102); font-weight: 450;
+    font-size: 16px; } .lockbtn3 { width: 20px; }-->
+    <script>
+      var order1 = document.getElementById("order1");
+      var orderpagesss1 = document.querySelector(".order-page");
+      order1.addEventListener("click", function () {
+        orderpagesss1.style.display = "block";
+      });
+
+      var placeorder1 = document.getElementById("placeorder1");
+      placeorder1.addEventListener("click", function () {
+        var cusinput1 = document.querySelector(".cusinput1").value;
+        var cusinput3 = document.querySelector(".cusinput3").value;
+        if (cusinput1.trim() === "" || cusinput3.trim() === "") {
+          alert("Please fill The fields");
+        } else {
+          alert("Order placed successfully.");
+          orderpagesss1.style.display = "none";
+        }
+      });
+      var order2 = document.getElementById("order2");
+      var orderpagesss2 = document.querySelector(".order-page222");
+      order2.addEventListener("click", function () {
+        orderpagesss2.style.display = "block";
+      });
+
+      var placeorder2 = document.getElementById("placeorder2");
+      placeorder2.addEventListener("click", function () {
+        var cusinput12 = document.querySelector(".cusinput12").value;
+        var cusinput31 = document.querySelector(".cusinput31").value;
+        if (cusinput12.trim() === "" || cusinput31.trim() === "") {
+          alert("Please fill The fields");
+        } else {
+          alert("Order placed successfully.");
+          orderpagesss2.style.display = "none";
+        }
+      });
+      var order3 = document.getElementById("order3");
+      var orderpagesss3 = document.querySelector(".order-page333");
+      order3.addEventListener("click", function () {
+        orderpagesss3.style.display = "block";
+      });
+
+      var placeorder3 = document.getElementById("placeorder3");
+      placeorder3.addEventListener("click", function () {
+        var cusinput333 = document.querySelector(".cusinput333").value;
+        var cusinput3333 = document.querySelector(".cusinput3333").value;
+        if (cusinput333.trim() === "" || cusinput3333.trim() === "") {
+          alert("Please fill The fields");
+        } else {
+          alert("Order placed successfully.");
+          orderpagesss3.style.display = "none";
+        }
+      });
+      var order4 = document.getElementById("order4");
+      var orderpagesss4 = document.querySelector(".order-page444");
+      order4.addEventListener("click", function () {
+        orderpagesss4.style.display = "block";
+      });
+
+      var placeorder4 = document.getElementById("placeorder4");
+      placeorder4.addEventListener("click", function () {
+        var cusinput444 = document.querySelector(".cusinput444").value;
+        var cusinput4444 = document.querySelector(".cusinput4444").value;
+        if (cusinput444.trim() === "" || cusinput4444.trim() === "") {
+          alert("Please fill The fields");
+        } else {
+          alert("Order placed successfully.");
+          orderpagesss4.style.display = "none";
+        }
+      });
+      var order5 = document.getElementById("order5");
+      var orderpagesss5 = document.querySelector(".order-page555");
+      order5.addEventListener("click", function () {
+        orderpagesss5.style.display = "block";
+      });
+
+      var placeorder5 = document.getElementById("placeorder5");
+      placeorder5.addEventListener("click", function () {
+        var cusinput555 = document.querySelector(".cusinput555").value;
+        var cusinput5555 = document.querySelector(".cusinput5555").value;
+        if (cusinput555.trim() === "" || cusinput5555.trim() === "") {
+          alert("Please fill The fields");
+        } else {
+          alert("Order placed successfully.");
+          orderpagesss5.style.display = "none";
+        }
+      });
+      var order6 = document.getElementById("order6");
+      var orderpagesss6 = document.querySelector(".order-page666");
+      order6.addEventListener("click", function () {
+        orderpagesss6.style.display = "block";
+      });
+
+      var placeorder6 = document.getElementById("placeorder6");
+      placeorder6.addEventListener("click", function () {
+        var cusinput666 = document.querySelector(".cusinput666").value;
+        var cusinput6666 = document.querySelector(".cusinput6666").value;
+        if (cusinput666.trim() === "" || cusinput6666.trim() === "") {
+          alert("Please fill The fields");
+        } else {
+          alert("Order placed successfully.");
+          orderpagesss6.style.display = "none";
+        }
+      });
+      var order7 = document.getElementById("order7");
+      var orderpagesss7 = document.querySelector(".order-page777");
+      order7.addEventListener("click", function () {
+        orderpagesss7.style.display = "block";
+      });
+
+      var placeorder7 = document.getElementById("placeorder7");
+      placeorder7.addEventListener("click", function () {
+        var cusinput777 = document.querySelector(".cusinput777").value;
+        var cusinput7777 = document.querySelector(".cusinput7777").value;
+        if (cusinput777.trim() === "" || cusinput7777.trim() === "") {
+          alert("Please fill The fields");
+        } else {
+          alert("Order placed successfully.");
+          orderpagesss7.style.display = "none";
+        }
+      });
+      var order8 = document.getElementById("order8");
+      var orderpagesss8 = document.querySelector(".order-page888");
+      order8.addEventListener("click", function () {
+        orderpagesss8.style.display = "block";
+      });
+
+      var placeorder8 = document.getElementById("placeorder8");
+      placeorder8.addEventListener("click", function () {
+        var cusinput888 = document.querySelector(".cusinput888").value;
+        var cusinput8888 = document.querySelector(".cusinput8888").value;
+        if (cusinput888.trim() === "" || cusinput8888.trim() === "") {
+          alert("Please fill The fields");
+        } else {
+          alert("Order placed successfully.");
+          orderpagesss8.style.display = "none";
+        }
+      });
+    </script>
+  </body>
+</html>
