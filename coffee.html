@@ -1306,8 +1306,19 @@
         } else {
           alert("Order placed successfully.");
           orderpagesss1.style.display = "none";
-          const message = `hi, iwant to order this`;
-          const whatsappurl = `https://wa.me/${8248391050}`;
+         const message = `
+          Check your details here and send your address!
+
+          Customer Details
+          ------------------
+          Name :${cusinput1}
+          Phone :${cusinput3}
+
+          Order Details
+          ------------------
+          Coffee name :black Coffee
+          price :150 rupees `;
+          const whatsappurl = `https://wa.me/8248391050?text=${encodeURIComponent(message)}`;
           window.open(whatsappurl, "_blank");
         }
       });
